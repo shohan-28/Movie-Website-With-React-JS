@@ -4,20 +4,21 @@ import "../Header/Headerfont.css";
 
 const Header = () => {
     return (
-        <div className='bg-white/30 backdrop-grayscale-[0.5]'>
+        <div className='bg-white/30 '>
             <header className=" container mx-auto text-white px-6 py-4 flex items-center justify-between ">
                 
-                <div className="text-yellow-400 font-bold tracking-wide ">
-                <h1 className='love-ya-like-a-sister-regular text-3xl'>DRAMATIC</h1>
-                </div>
+                <div className="text-yellow-400 font-bold tracking-wide flex justify-center items-center ">
+                <h1 className='love-ya-like-a-sister-regular text-2xl pr-10'>DRAMATIC</h1>
+                
 
              
-                <nav className="hidden md:flex space-x-6 text-sm font-semibold">
+                <nav className="hidden md:flex space-x-6 text-base font-semibold text-white">
                     <a href="#" className="hover:text-yellow-400 transition">HOME</a>
                     <a href="#" className="hover:text-yellow-400 transition">SHOWS</a>
                     <a href="#" className="hover:text-yellow-400 transition">MOVIES</a>
                     <a href="#" className="hover:text-yellow-400 transition">NEWS</a>
                 </nav>
+                </div>
 
       
                 <div className="flex items-center space-x-4">
