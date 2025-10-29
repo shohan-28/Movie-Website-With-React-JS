@@ -1,13 +1,14 @@
 import React from 'react';
+import "../Header/Headerfont.css";
 
 
 const Header = () => {
     return (
-        <div className=''>
-            <header className=" bg-white/30 backdrop-grayscale-[0.5] text-white px-6 py-4 flex items-center justify-between ">
+        <div className='bg-white/30 backdrop-grayscale-[0.5]'>
+            <header className=" container mx-auto text-white px-6 py-4 flex items-center justify-between ">
                 
-                <div className="text-yellow-400 font-bold text-2xl tracking-wide">
-                <h1>Dramatic</h1>
+                <div className="text-yellow-400 font-bold tracking-wide ">
+                <h1 className='love-ya-like-a-sister-regular text-3xl'>DRAMATIC</h1>
                 </div>
 
              
